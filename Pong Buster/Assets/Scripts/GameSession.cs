@@ -24,11 +24,6 @@ public class GameSession : MonoBehaviour
     {
         SetUpSingleton();
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     
     private void SetUpSingleton()
     {

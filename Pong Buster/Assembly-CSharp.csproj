@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2020.1.6f1</UnityVersion>
@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\GameSession.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SetVolume.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -97,82 +98,82 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>M:/Unity Repo/Unity2D/Pong Clone lol/Pong Buster/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>M:/Unity Repo/Unity2D/PongClone/Pong Buster/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -356,6 +357,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

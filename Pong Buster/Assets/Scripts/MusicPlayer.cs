@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class MusicPlayer : MonoBehaviour
 
     private void SetUpSingleton()
     {
-        if (FindObjectsOfType(GetType()).Length > 1) 
+        int numberGameSesh = FindObjectsOfType<GameSession>().Length;
+        if (numberGameSesh > 1)
         {
             Destroy(gameObject);
         }
@@ -21,4 +23,5 @@ public class MusicPlayer : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+
 }
