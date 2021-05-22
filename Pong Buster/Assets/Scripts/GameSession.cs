@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameSession : MonoBehaviour
 {
     [Header("Game Init")]
-    [SerializeField] int goalLimit = 10;
+    [SerializeField] int goalLimit = 3;
     [SerializeField] int playerOneGoal = 0;
     [SerializeField] int playerTwoGoal = 0;
     [SerializeField] GameObject ballPrefab;
@@ -60,11 +62,13 @@ public class GameSession : MonoBehaviour
     }
     public void isGameFinished()
     {
-        if (playerOneGoal >= goalLimit)
+        int goalVal = GetGoalLimit();
+
+        if (playerOneGoal >= goalVal)
         {
             levelLoader.LoadGameOver();
         }
-        else if (playerTwoGoal >= goalLimit)
+        else if (playerTwoGoal >= goalVal)
         {
             levelLoader.LoadGameOver();
         }

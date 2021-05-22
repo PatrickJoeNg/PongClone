@@ -28,7 +28,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovePaddle();   
+        if (!PauseMenu.isPaused)
+        {
+            MovePaddle();
+        }
     }
 
     private void MovePaddle()
